@@ -7,17 +7,13 @@
 	                <span class="icon-bar"></span>
 	            </button>
 
-	            <a class="navbar-brand" href="/home.php">Gideon Appoh</a>
+	            <a class="navbar-brand" href="home.php">Gideon Appoh</a>
 	        </div>
 
 	        <div id="navbar-content" class="collapse navbar-collapse pull-right">
 	            <ul class="nav navbar-nav">
 	                <li class="">
-	                    <a href="/projects">Projects</a>
-	                </li>
-
-	                <li class="">
-	                    <a href="/resume.php">View Resume</a>
+	                    <a href="files/resume_gideon_appoh.pdf">Download Resume</a>
 	                </li>
 	            </ul>        
 	        </div>

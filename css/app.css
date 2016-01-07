@@ -1,6 +1,6 @@
 body {
 	font-family: 'Exo 2', sans-serif;
-	background: url(../images/background.png);
+	background-color: #f5f3f1;
 }
 
 /* Tweaking my headings */
@@ -15,6 +15,7 @@ h1, h2, h3 {
 /* Tweaking my links */
 a, a:focus, a:visited, a:hover, a:active {
 	color: black;
+	text-decoration: none;
 }
 
 /* Giving the home section some vertical positioning */
@@ -27,12 +28,41 @@ section#home {
 	margin-top: 40px;
 }
 
+#wrapper {
+	margin-top: 70px;
+}
+
+#intro {
+	margin-top: 150px;
+	margin-bottom: 160px;
+}
+
+#intro p {
+	font-size: 25px;
+	letter-spacing: 1px;
+}
+
+img#dropdown {
+	position: absolute;
+	left: 45%;
+}
+
 /* Making my face image round */
 header img {
 	border-radius: 100%;
 }
 
+footer {
+	background: #0c0a0a;
+	color: white;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
 
+footer h2 {
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
 /* General Classes */
 
 /* Centering text elements */
@@ -40,9 +70,17 @@ header img {
 	text-align: center;
 }
 
-/* Font Indie */
+/* Fonts */
 .indie {
 	font-family: 'Indie Flower', cursive;
+}
+
+.exo {
+	font-family: 'Exo 2', sans-serif;
+}
+
+.quicksand {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 /* My custom button */
@@ -57,4 +95,8 @@ header img {
 .btn-custom:focus, .btn-custom:hover {
 	background-color: black;
 	color: white;
+}
+
+.highlight {
+	color: #a01a00;
 }

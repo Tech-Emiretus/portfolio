@@ -1,7 +1,7 @@
 <!-- Fonts To be used -->
-<link href='https://fonts.googleapis.com/css?family=Indie+Flower|Exo+2:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Indie+Flower|Exo+2:400,400italic,700,700italic|Yanone+Kaffeesatz:400,700' rel='stylesheet' type='text/css'><!-- Latest compiled and minified CSS -->
 
-<!-- Latest compiled and minified CSS -->
+<!-- Latest compiled Bootstrap -->
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
 <!-- This is my custom css file -->

@@ -4,6 +4,12 @@
 	<head>
 		<?php include 'layout/core.php'; ?>
 
+		<style type="text/css">
+			body {
+				background: url(images/background.png);
+			}
+		</style>
+
 		<!-- Title of the current page -->
 		<title>Gideon Appoh's Portfolio</title>
 	</head>
@@ -26,7 +32,7 @@
 
 					<h2 class="center indie">Or</h2>
 
-					<a href="pages/home.php"><h3 class="center">Learn more about me</h3></a>
+					<a href="home.php"><h3 class="center" id="wordFlash">Learn more about me</h3></a>
 				</section>
 			</div>
 		</div>
