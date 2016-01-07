@@ -1,0 +1,60 @@
+body {
+	font-family: 'Exo 2', sans-serif;
+	background: url(../images/background.png);
+}
+
+/* Tweaking my headings */
+h1 {
+	font-size: 40px;
+}
+
+h1, h2, h3 {
+	margin: 3px 0;
+}
+
+/* Tweaking my links */
+a, a:focus, a:visited, a:hover, a:active {
+	color: black;
+}
+
+/* Giving the home section some vertical positioning */
+div#home {
+	margin-top: 50px;
+}
+
+/* Giving the section#home some margin */
+section#home {
+	margin-top: 40px;
+}
+
+/* Making my face image round */
+header img {
+	border-radius: 100%;
+}
+
+
+/* General Classes */
+
+/* Centering text elements */
+.center {
+	text-align: center;
+}
+
+/* Font Indie */
+.indie {
+	font-family: 'Indie Flower', cursive;
+}
+
+/* My custom button */
+.btn-custom {
+	background-color: none;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 0;
+	color: black;
+}
+
+.btn-custom:focus, .btn-custom:hover {
+	background-color: black;
+	color: white;
+}
