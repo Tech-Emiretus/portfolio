@@ -1,13 +1,8 @@
 $(function() {
-	function wordsFlash() {
-		var sentence = $('#wordFlash').text();
-		$('#wordFlash').html('');
-
-		words = sentence.split(' ');
-
-		words.each(function (i) {
-			('#wordFlash').animate({
-				append
+	function wordFlash() {
+		$('h3#wordFlash').animate({color: 'white'}, 3000, function() {
+			$('h3#wordFlash').animate({color: 'black'}, 3000, function() {
+				wordFlash();
 			});
 		});
 	}
@@ -26,5 +21,7 @@ $(function() {
 		});
 	}
 
-	$(window).load(dropdownFlash);
+	$(window).load(wordFlash);
+
+	$('img#dropdown').load(dropdownFlash);
 });

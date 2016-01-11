@@ -1,11 +1,16 @@
 body {
 	font-family: 'Exo 2', sans-serif;
+	font-size: 2em;
 	background-color: #f5f3f1;
 }
 
 /* Tweaking my headings */
 h1 {
 	font-size: 40px;
+}
+
+h2 {
+	font-size: 35px;
 }
 
 h1, h2, h3 {
@@ -30,16 +35,16 @@ section#home {
 
 #wrapper {
 	margin-top: 70px;
+	letter-spacing: 0.8px;
 }
 
 #intro {
-	margin-top: 150px;
-	margin-bottom: 160px;
+	margin-top: 160px;
+	margin-bottom: 220px;
 }
 
 #intro p {
 	font-size: 25px;
-	letter-spacing: 1px;
 }
 
 img#dropdown {
@@ -55,19 +60,39 @@ header img {
 footer {
 	background: #0c0a0a;
 	color: white;
-	padding-top: 40px;
-	padding-bottom: 30px;
+	padding-top: 70px;
+	padding-bottom: 70px;
 }
 
 footer h2 {
 	margin-left: 30px;
 	margin-bottom: 30px;
 }
+
+#skillset {
+	background-color: #cccc99;
+}
+
+#personality {
+	background-color: #669966;
+	color: white;
+}
+
+
 /* General Classes */
 
 /* Centering text elements */
 .center {
 	text-align: center;
+}
+
+.marginated {
+	margin-top: 20px;
+}
+
+.category {
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
 
 /* Fonts */

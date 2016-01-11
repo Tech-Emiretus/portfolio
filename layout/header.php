@@ -7,7 +7,7 @@
 	                <span class="icon-bar"></span>
 	            </button>
 
-	            <a class="navbar-brand" href="home.php">Gideon Appoh</a>
+	            <a class="navbar-brand" href="index.php">Gideon Appoh</a>
 	        </div>
 
 	        <div id="navbar-content" class="collapse navbar-collapse pull-right">

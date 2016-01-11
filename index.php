@@ -32,7 +32,7 @@
 
 					<h2 class="center indie">Or</h2>
 
-					<a href="home.php"><h3 class="center" id="wordFlash">Learn more about me</h3></a>
+					<a href="home.php"><h3 class="center" id="wordFlash" onload="wordFlash()">Learn more about me</h3></a>
 				</section>
 			</div>
 		</div>
